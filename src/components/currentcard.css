@@ -1,0 +1,107 @@
+.input_name_1 {
+  margin: 0;
+  border-radius: 10px;
+  background: white;
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(9, 13, 1);
+}
+.rudate, h1 {
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(159, 245, 21);
+}
+
+
+img,
+.weather-icon {
+  width: 300px;
+}
+
+.section1 {
+  margin: 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+table {
+  width: auto;
+  border-top: 7px solid rgb(43, 129, 17);
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+}
+
+td {
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+}
+th {
+  text-align: center;
+  padding: 10px;
+}
+
+.displayweather {
+  margin: 0;
+  /* border: 3px dashed grey; */
+  border-radius: 20px;
+  /* width: max-content; */
+  /* padding: 0px 20px 20px 20px; */
+  /* text-align: center; */
+  /* margin-top: 120px; */
+  /* display: flex; */
+  flex-flow: column nowrap;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  align-self: center;
+  position: relative;
+  background: linear-gradient(blue, pink);
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* .React.Fragment {
+  color: rgb(159, 245, 21);
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+ */
+.maincard {
+  margin: 0;
+  width: auto;
+  padding: 0px 120px 0px 70px;
+  text-align: center;
+  margin-top: 120px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather {
+  text-align: center;
+  margin-top: 120px;
+  margin-top: 10px;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+.weather-icon {
+  border-radius: 20px;
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  width: 300px;
+}

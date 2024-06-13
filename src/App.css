@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+  /* display: flex; */
+}
+
+.button_1,
+.button_5 {
+  margin: 0;
+  border-radius: 10px;
+  background: #0b63f6;
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  margin: 0 auto;
+  /* width: 800px; */
+}
+
+.title_name {
+  /* min-height: 10vh; */
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: rgb(159, 245, 21);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  /* margin: auto; */
+}
+
+body {
+  background-image: url("/public/img/weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover, contain;
+}
